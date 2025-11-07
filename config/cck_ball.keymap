@@ -95,7 +95,7 @@
                 <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
-        BT_layers {
+        middle_layer {
             bindings = <
 &trans  &none         &none         &none         &none         &none         &none   &none   &none   &none  &none  &none
 &trans  &none         &none         &none         &none         &none         &none   &none   &none   &none  &none  &none
