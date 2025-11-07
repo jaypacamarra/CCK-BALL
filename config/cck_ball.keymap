@@ -69,11 +69,11 @@
 
         F_layers {
             bindings = <
-&kp F12  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &kp F6     &kp F7     &kp F8  &kp F9  &kp F10  &kp F11
-&kp A    &none   &none   &none   &none   &trans  &none      &none      &none   &trans  &trans   &trans
-&trans   &none   &none   &none   &none   &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans   &trans
-&trans   &trans  &trans  &trans  &trans  &none   &none      &none      &trans  &trans  &none    &trans
-&trans   &trans  &trans  &trans  &trans  &trans  &mkp LCLK  &mkp RCLK  &trans  &trans  &trans   &trans
+&kp F12  &kp F1     &kp F2            &kp F3             &kp F4                &kp F5         &kp F6            &kp F7                 &kp F8           &kp F9             &kp F10    &kp F11
+&trans   &none      &none             &none              &none                 &none          &mkp LCLK         &mkp RCLK              &none            &none              &none      &kp CAPSLOCK
+&trans   &kp TILDE  &kp EQUAL         &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE      &kp SLASH      &kp BACKSLASH     &kp LEFT_ARROW         &kp DOWN_ARROW   &kp UP_ARROW       &kp RIGHT  &kp UNDER
+&trans   &kp MINUS  &kp LEFT_BRACKET  &kp LEFT_BRACE     &kp LEFT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp PLUS   &kp GRAVE
+&trans   &trans     &trans            &trans             &trans                &trans         &trans            &trans                 &trans           &none              &none      &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
