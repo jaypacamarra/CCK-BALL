@@ -28,15 +28,6 @@
 
 / {
     // 上下滚动编码器行为
-
-    scroll_vertical_encoder: scroll_vertical_encoder {
-        compatible = "zmk,behavior-sensor-rotate";
-        #sensor-binding-cells = <0>;
-        bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
-
-        tap-ms = <100>;
-    };
-
     // 左右滚动编码器行为
 
     scroll_horizontal_encoder: scroll_horizontal_encoder {
@@ -45,6 +36,15 @@
         bindings = <&msc SCRL_LEFT>, <&msc SCRL_RIGHT>;
 
         tap-ms = <100>;
+    };
+
+    scroll_vertical_encoder: scroll_vertical_encoder {
+        compatible = "zmk,behavior-sensor-rotate";
+        #sensor-binding-cells = <0>;
+        bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+
+        tap-ms = <100>;
+        label = "SCROLL_VERTICAL_ENCODER";
     };
 
     behaviors {
