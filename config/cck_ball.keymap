@@ -69,11 +69,11 @@
 
         lower_layer {
             bindings = <
-&kp F12  &kp F1     &kp F2            &kp F3             &kp F4                &kp F5         &kp F6            &kp F7                 &kp F8           &kp F9             &kp F10    &kp F11
-&trans   &none      &none             &none              &none                 &none          &mkp LCLK         &mkp RCLK              &none            &none              &none      &kp CAPSLOCK
-&trans   &kp TILDE  &kp EQUAL         &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE      &kp SLASH      &kp BACKSLASH     &kp LEFT_ARROW         &kp DOWN_ARROW   &kp UP_ARROW       &kp RIGHT  &kp UNDER
-&trans   &kp MINUS  &kp LEFT_BRACKET  &kp LEFT_BRACE     &kp LEFT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp PLUS   &kp GRAVE
-&trans   &trans     &trans            &trans             &trans                &trans         &trans            &trans                 &trans           &none              &none      &none
+&kp F12     &kp F1     &kp F2            &kp F3             &kp F4                &kp F5         &kp F6            &kp F7                 &kp F8           &kp F9             &kp F10    &kp F11
+&kp ESCAPE  &none      &none             &none              &none                 &none          &none             &mkp LCLK              &mkp RCLK        &none              &none      &kp CAPSLOCK
+&trans      &kp TILDE  &kp EQUAL         &kp DOUBLE_QUOTES  &kp SINGLE_QUOTE      &kp SLASH      &kp BACKSLASH     &kp LEFT_ARROW         &kp DOWN_ARROW   &kp UP_ARROW       &kp RIGHT  &kp UNDER
+&trans      &kp MINUS  &kp LEFT_BRACKET  &kp LEFT_BRACE     &kp LEFT_PARENTHESIS  &kp LESS_THAN  &kp GREATER_THAN  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp PLUS   &kp GRAVE
+&trans      &trans     &trans            &trans             &trans                &trans         &trans            &trans                 &trans           &none              &none      &none
             >;
 
             sensor-bindings =
